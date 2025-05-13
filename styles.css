@@ -52,7 +52,11 @@ nav ul li a:hover{
     color: white;
 }
 .container{
-   text-align: center
+   text-align: center;
+   background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+
 }
 .container h2{
     font-size: 30px;
