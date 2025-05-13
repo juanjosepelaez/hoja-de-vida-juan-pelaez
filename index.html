@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="ing/Imagen de WhatsApp 2025-05-12 a las 13.28.52_87bc6722.jpg" alt="">
+<h1>Juan Jose Pelaez Posada</h1>
+<p>Soy Juan Jose Pelaez Posada, tengo 16 años de edad; Soy un joven trabajador con un estilo definido, tengo una gran pasion por la velocidad
+    y la libertad y un gusto culinario distintivo; me gusta la cocina, la fotografia y el deporte. Me considero una persona responsable, 
+    honesta y trabajadora, siempre dispuesto a aprender y mejorar en lo que hago.
+</p>
+<nav>
+    <ul>
+        <li><a href="#informacion-personal" class="informacion-personal2">Informacion Personal</a></li>
+        <li><a href="#experiencia-laboral" class="experiencia-laboral2">Experiencia Laboral</a></li>
+        <li><a href="#educacion" class="educacion2">Educación</a></li>
+        <li><a href="#habilidades" class="habilidades2">Habilidades</a></li>
+    </ul>
+</nav>
+        </div>
+    </header>
+    <main>
+        <section id="informacion-personal">
+            <div class="container">
+                <h2>Informacion Personal</h2>
+                <p><strong>Nombre: </strong>Juan Jose Pelaez Posada</p>
+                <p><strong>Fecha de Nacimiento: </strong>14 de Octubre de 2008</p>
+                <p><strong>Teléfono 1: </strong>324 9477202</p>
+                <p><strong>Teléfono 2: </strong>304 3909524</p>
+                <p><strong>Correo: </strong>juanjosepelaezposada7@gmail.com</p>
+                <p><strong>Lugar de Residencia: </strong>Bello Cabañas</p>
+            </div>
+        </section>
+        <section id="experiencia-laboral">
+            <div class="container">
+                <h2>Experiencia Laboral</h2>
+                <p><strong>Nombre de la Empresa: </strong>PINTULUZ pinturas bufalo</p>
+                <p><strong>Cargo: </strong>Administrador de almacen</p>
+                <p><strong>Fecha de Inicio: </strong>15 de Noviembre de 2021</p>
+                <p><strong>Fecha de Fin: </strong>Presente</p>
+                <p><strong>Funciones: </strong>Atencion al cliente, manejo de inventario, manejo de caja, manejo de personal.</p>
+            </div>
+        </section>
+        <section id="educacion">
+            <div class="container">
+                <h2>Educación</h2>
+                <p><strong>Nombre de la Institución: </strong>Institucion Educativa CENDI</p>
+                <p><strong>Grado cursado: </strong>Actualmente en 10 grado</p>
+                <p><strong>Titulos Obtenidos: </strong>Chef Ejecutivo - Tecnico en Desarrollo de Software</p>
+            </div>
+        </section>
+        <section id="habilidades">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <p>Tengo distintos tipos de habilidades, entre ellas: </p>
+                <p><strong>Habilidades Técnicas: </strong>Conocimientos en HTML, CSS, JavaScript.</p>
+                <p><strong>Habilidades Culinarias: </strong>Conocimientos en cocina</p>
+                <p><strong>Habilidades Administrativas: </strong>Conocimientos en administración de almacenes y atención al cliente.</p>
+                <p><strong>Habilidades Deportivas: </strong>Experiencia en Natacion, boxeo y taekwondo.</p>
+                <p><strong>Habilidades en Seguridad: </strong>Manejo de armas.</p>
+                <p><strong>Habilidades en Fotografía: </strong>Conocimientos en fotografía y edición de fotos.</p>
+                <p><strong>Habilidades Personales: </strong>Trabajo en equipo, liderazgo, trabajo bajo presión.</p>
+            </div>
+        </section>
+    </main>
+    <section class="pdp">
+        <a href="#header" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+    <footer>
+            <p> 2025 Juan Jose Pelaez Posada. &copy;  Todos los derechos reservados.</p>
+    </footer>
+    </section>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+ 
+$('a.scroll-to-top').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.informacion-personal2').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.experiencia-laboral2').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.educacion2').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.habilidades2').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+    });
+  </script>
+</body>
+</html>

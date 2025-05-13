@@ -1,0 +1,97 @@
+body{
+    background-color: #ffffff;
+    font-family: sans-serif, Arial, Helvetica;
+}
+.logo img { 
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
+header{
+    background-color:rgb(68, 18, 18);
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+header h1{
+    font-size:40px;
+    margin: 20px;
+}
+header p{
+    font-size: 15px;
+    margin: 20px;
+}
+nav{
+    background-color: rgb(68, 18, 18);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(68, 18, 18);
+}
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.container{
+   text-align: center
+}
+.container h2{
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(68, 18, 18);
+
+}
+.container p{
+    font-size:15px;
+    margin: 20px;
+}
+.pdp{
+    background-color: rgb(68, 18, 18);
+    border-radius: 30px;
+    padding: 1px;
+}
+.pdp p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(68, 18, 18); ;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.scroll-to-top:hover{
+    background-color: black;
+    color: lightyellow;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
